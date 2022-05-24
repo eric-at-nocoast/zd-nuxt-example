@@ -1,6 +1,7 @@
 <template>
   <article>
     <h1>{{ article.title }}</h1>
+    <h3>Is the article a draft? {{article.draft}}</h3>
     <section>
       {{ article.body }}
     </section>
